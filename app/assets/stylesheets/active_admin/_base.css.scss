@@ -1,8 +1,6 @@
 /* Active Admin CSS */
-// Reset Away!
 @include global-reset;
 
-// Partials
 @import "active_admin/typography";
 @import "active_admin/header";
 @import "active_admin/forms";

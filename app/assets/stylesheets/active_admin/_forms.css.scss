@@ -1,4 +1,3 @@
-// -------------------------------------- Active Admin Forms
 form {
   /* Reset margins & Padding */
   ul, ol, li, fieldset, legend, input, textarea, select, p { margin:0; padding:0; }
@@ -204,7 +203,6 @@ form {
 
 }
 
-// -------------------------------------- Sidebar Forms
 
 $sidebar-inner-content-width: $sidebar-width - ($section-padding * 2);
 
@@ -228,7 +226,6 @@ $sidebar-inner-content-width: $sidebar-width - ($section-padding * 2);
 
 }
 
-// -------------------------------------- Filter Forms
 
 $filter-field-seperator-width: 12px;
 

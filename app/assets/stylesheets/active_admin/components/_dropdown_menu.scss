@@ -34,7 +34,6 @@
 
   .dropdown_menu_nipple {
 
-    // The nipple's border
     content: "";
     position: absolute;
     top: -6px;
@@ -46,7 +45,6 @@
     border-color: darken($primary-color, 4%) transparent;
     z-index: 100;
 
-    // The nipple's inner shadow
 
     &:before {
       content: ' ';
@@ -60,7 +58,6 @@
       top: 1px;
     }
 
-    // The nipple's background color
 
     &:after {
       content: ' ';

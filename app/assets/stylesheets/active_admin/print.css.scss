@@ -1,14 +1,14 @@
 /* Active Admin Print Stylesheet */
 
-// Set colors used elsewhere
+/* Set colors used elsewhere */
 $primary-color: black;
 $text-color: black;
 
-// Reset
+/* Reset */
 @import "active_admin/mixins/reset";
 @include global-reset;
 
-// Partials
+/* Partials */
 @import "active_admin/typography";
 
 body {
@@ -32,7 +32,6 @@ h3 {
   margin-bottom: .5em;
 }
 
-// Header
 #header {
   float: left;
 
@@ -62,7 +61,6 @@ h3 {
   }
 }
 
-// Content
 #active_admin_content {
   border-top: thick solid black;
   clear: both;
@@ -70,12 +68,10 @@ h3 {
   padding-top: 3em;
 }
 
-// Footer
 #footer {
   display: none;
 }
 
-// Tables
 .table_tools {
   ul {
     padding: 0;
@@ -145,7 +141,6 @@ table {
   }
 }
 
-// Index
 #index_footer, .pagination_information {
   display: none;
 }
@@ -162,7 +157,6 @@ table {
   }
 }
 
-// Show
 .panel {
   border-bottom: thick solid #ccc;
   margin-bottom: 3em;
@@ -207,7 +201,6 @@ table {
 }
 
 
-// Attribute Tables
 .attributes_table {
   border-top: medium solid black;
 
@@ -228,12 +221,10 @@ table {
   }
 }
 
-// Sidebars
 #filters_sidebar_section {
   display: none;
 }
 
-// Forms
 form {
   fieldset {
     border-top: thick solid #ccc;
